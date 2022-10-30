@@ -71,9 +71,9 @@ body {
 .card {
   /* ADD YOUR CODE HERE */
   background-color: var(--card-bg-clr); 
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(2px);
   color:var(--text-clr);
-  border-style: solid none none solid;
+  border-style: solid solid solid solid;
   border-width: var(--border-size);
   border-radius: var(--card-rounded-border);
   border-color: var(--border-clr);
@@ -111,8 +111,11 @@ body {
   padding: .5rem 1.25rem;
 
   /* ADD YOUR CODE HERE */
+  border-style: solid solid solid solid;
+  border-radius: var(--elements-rounded-border);
+  border-color: var(--border-clr);
+  border-width: var(--border-size);
   background-color: var(--primary-clr);
-  border-radius:var(--elements-rounded-border);
   color: var(--text-clr);
 }
 
@@ -147,7 +150,7 @@ body {
 
   /* ADD YOUR CODE HERE */
   background-color: var(--tech-icon-bg-clr);  
-  border-style: solid none none solid;
+  border-style: solid solid solid solid;
   border-radius: var(--elements-rounded-border);
   border-color: var(--border-clr);
   border-width: var(--border-size);
